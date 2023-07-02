@@ -110,6 +110,7 @@ export default function Root() {
           navigation.state === "loading" ? "loading" : ""
         }
       >
+          <Outlet/>
         </div>
       </>
     );
